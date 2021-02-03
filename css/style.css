@@ -1,0 +1,241 @@
+:root {
+  --first-text-color: #283136;
+  --second-text-color: #000000;
+  --special-text-color: #666666;
+  --special-text-color-2: #444444;
+  --basic-white: #ffffff;
+  --main-bg-color: #eeeeee;
+  --dark-grey-color: #dfdfdf;
+  --extra-dark-grey-color: #d5d5d5;
+  --radio-color: #4d4d4d;
+  --pink-color: #fb565a;
+  --dark-pink-color: #e74246;
+  --extra-dark-pink-color: #d7373b;
+  --green-color: #00ca74;
+  --dark-green-color: #00bc6c;
+  --extra-dark-green-color: #00aa62;
+  --yellow-color: #efc84a;
+  --dark-yellow-color:  #eab534;
+  --extra-dark-yellow-color: #e5a722;
+}
+
+body {
+	min-width: 960px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--first-text-color);
+	background-color: var(--basic-white);
+}
+
+a {
+  	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  text-transform: uppercase;
+  color: var(--basic-white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  background-color: var(--pink-color);
+}
+
+.button:hover {
+  background-color: var(--dark-pink-color);
+}
+
+.button:active {
+  background-color: var(--extra-dark-pink-color);
+  color: rgba(255,255,255,0.3);
+}
+
+.main-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav__link {
+  color: var(--second-text-color);
+}
+
+.main-nav__link:hover {
+  color: var(--pink-color);
+}
+
+.main-nav__link:active {
+  opacity: 0.3;
+}
+
+.header {
+  background-color: var(--main-bg-color);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px
+}
+
+.basket {
+  color: var(--second-text-color);
+}
+
+.basket:hover {
+  color: var(--pink-color);
+}
+
+.basket:active {
+  opacity: 0.3;
+}
+
+.slider {
+  background-color: var(--main-bg-color);
+}
+
+.slider__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slider__title {
+  color: var(--second-text-color);
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.slider__toggles {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.products__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.products__title {
+  color: var(--second-text-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px
+}
+
+.produts__button--green {
+  background-color: var(--green-color);
+}
+
+.produts__button--green:hover {
+  background-color: var(--dark-green-color);
+}
+
+.produts__button--green:active {
+  background-color: var(--extra-dark-green-color);
+}
+
+.produts__button--yellow {
+  background-color: var(--yellow-color);
+}
+
+.produts__button--yellow:hover {
+  background-color: var(--dark-yellow-color);
+}
+
+.produts__button--yellow:active {
+  background-color: var(--extra-dark-yellow-color);
+}
+
+.features__title {
+  color: var(--second-text-color);
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.features__list-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.features__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.stats__title {
+  color: var(--second-text-color);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.stats__term {
+  color: var(--second-text-color);
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 64px;
+}
+
+.stats__definition {
+  line-height: 18px;
+}
+
+.clients__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts__title {
+  color: var(--second-text-color);
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.contacts__text {
+  color: var(--special-text-color);
+  line-height: 18px;
+}
+
+.socials__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.socials__title {
+  color: var(--second-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.socials__text {
+  color: var(--special-text-color-2);
+  line-height: 22px;
+}
+
