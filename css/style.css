@@ -210,6 +210,18 @@ img {
   padding: 0;
 }
 
+.clients__icon {
+  opacity: 0.2;
+}
+
+.clients__icon:hover {
+  opacity: 1;
+}
+
+.clients__icon:active {
+  opacity: 0.1;
+}
+
 .contacts__title {
   color: var(--second-text-color);
   font-weight: 700;
