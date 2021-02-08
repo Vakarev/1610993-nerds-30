@@ -122,7 +122,7 @@ img {
   opacity: 0.3;
 }
 
-.slider {
+.slider-wrapper {
   background-color: var(--main-bg-color);
 }
 
@@ -244,6 +244,11 @@ img {
 
 .clients__icon:active {
   opacity: 0.1;
+}
+
+.map {
+  display: block;
+  margin: 0 auto;
 }
 
 .contacts__title {
