@@ -343,6 +343,7 @@ img {
 
 .catalog-title {
   display: block;
+  text-align: center;
   background-color: var(--main-bg-color);
   color: var(--second-text-color);
   font-size: 55px;
@@ -357,10 +358,22 @@ img {
   text-transform: uppercase;
 }
 
+.catalog__sorter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .sorter__list {
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-left: 160px;
+}
+
+.sorter__item + .sorter__item {
+  margin-left: 25px;
 }
 
 .sorter__link {
@@ -405,9 +418,14 @@ img {
 }
 
 .pagination__list {
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.pagination__item + .pagination__item {
+  margin-left: 10px;
 }
 
 .pagination__link {
