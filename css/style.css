@@ -360,7 +360,6 @@ img {
 
 .catalog__sorter {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -369,7 +368,7 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-left: 160px;
+  margin-left: 250px;
 }
 
 .sorter__item + .sorter__item {
