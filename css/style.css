@@ -446,9 +446,23 @@ img {
   opacity: 0.1;
 }
 
-.map {
-  display: block;
+.contacts {
+  width: 1440px;
+  height: 416px;
+  background-image: url("../img/map.png");
+  background-repeat: no-repeat;
   margin: 0 auto;
+}
+
+.contacts__wrapper {
+  position: relative;
+}
+
+.contacts__container {
+  position: absolute;
+  top: 42px;
+  padding: 49px 50px 47px;
+  background-color: var(--basic-white);
 }
 
 .contacts__title {
@@ -457,29 +471,6 @@ img {
   line-height: 30px;
   font-size: 18px;
   margin-bottom: 20px;
-}
-
-.contacts {
-  position: relative;
-}
-
-.contacts::before {
-  content: "";
-  position: absolute;
-  background-image: url("../img/map-marker.svg");
-  background-repeat: no-repeat;
-  width: 231px;
-  height: 190px;
-  left: 681px;
-  bottom: 138px;
-}
-
-.contacts__wrapper  {
-  position: absolute;
-  bottom: 52px;
-  left: 0;
-  padding: 35px 51px 60px 50px;
-  background-color: var(--basic-white);
 }
 
 .contacts__text {
