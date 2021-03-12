@@ -30,7 +30,71 @@
         <h1 class="catalog-title">Магазин готовых шаблонов</h1>
         <div class="main__wrapper wrapper">
           <section class="filter">
-              <!--Форма фильтра-->
+            <form method="get" action="https://echo.htmlacademy.ru">
+              <fieldset class="filter-item">
+                  <legend>Стоимость:</legend>
+                  <div class="range-filter">
+                    <div class="range-controls">
+                      <div class="scale">
+                        <div class="bar"> </div>
+                      </div>
+                      <div class="toggle toggle-min" tabindex="0"></div>
+                      <div class="toggle toggle-max" tabindex="0"></div>
+                    </div>
+                    <div class="price-controls">
+                      <label class="min-price">
+                        от <input type="number" name="min-price" value="0">
+                      </label>
+                      <label class="max-price">
+                        до <input type="number" name="max-price" value="15000">
+                      </label>
+                    </div>
+                  </div>
+              </fieldset>
+              <fieldset class="filter-item">
+                <legend>Сетка:</legend>
+                <div class="filter-item__wrapper">
+                  <div class="radio">
+                    <input type="radio" name="radio-item" id="radio_1" class="radio__input">
+                    <label for="radio_1" class="radio__label">Адаптивная</label>
+                  </div>
+                  <div class="radio">
+                    <input type="radio" name="radio-item" id="radio_2" class="radio__input">
+                    <label for="radio_2" class="radio__label">Фиксированная</label>
+                  </div>
+                  <div class="radio">
+                    <input type="radio" name="radio-item" id="radio_3" class="radio__input">
+                    <label for="radio_3" class="radio__label">Резиновая</label>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset class="filter-item">
+                <legend>Особенности:</legend>
+                <div class="filter-item__wrapper">
+                  <div class="checkbox">
+                      <input type="checkbox" name="checkbox-item" class="checkbox__input" id="checkbox_1">
+                    <label for="checkbox_1" class="checkbox__label">Слайдер</label>
+                  </div>
+                  <div class="checkbox">
+                      <input type="checkbox" name="checkbox-item" class="checkbox__input" id="checkbox_2">
+                    <label for="checkbox_2" class="checkbox__label">Блок преимуществ</label>
+                  </div>
+                  <div class="checkbox">
+                      <input type="checkbox" name="checkbox-item" class="checkbox__input" id="checkbox_3">
+                    <label for="checkbox_3" class="checkbox__label">Новости</label>
+                  </div>
+                  <div class="checkbox">
+                      <input type="checkbox" name="checkbox-item" class="checkbox__input" id="checkbox_4">
+                    <label for="checkbox_4" class="checkbox__label">Галерея</label>
+                  </div>
+                  <div class="checkbox">
+                      <input type="checkbox" name="checkbox-item" class="checkbox__input" id="checkbox_5">
+                    <label for="checkbox_5" class="checkbox__label">Корзина</label>
+                  </div>
+                </div>
+              </fieldset>
+              <a href="#" class="form__button">Показать</a>
+            </form>
           </section>
           <section class="catalog">
               <div class="catalog__sorter sorter">
