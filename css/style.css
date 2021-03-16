@@ -73,6 +73,8 @@ img {
   font-size: 16px;
   line-height: 18px;
   background-color: var(--pink-color);
+  display: block;
+  text-align: center;
 }
 
 .button:hover {
@@ -174,7 +176,7 @@ img {
 .slider {
   position: relative;
   padding-top: 65px;
-  padding-bottom: 92px;
+  padding-bottom: 80px;
   background-image: url(../img/slide-1.png);
   background-repeat: no-repeat;
   background-position: 400px -10px;
@@ -197,15 +199,18 @@ img {
   line-height: 55px;
   margin: 0;
   margin-bottom: 28px;
+  max-width: 540px;
 }
 
 .slider__text {
-  margin-bottom: 53px;
+  margin-bottom: 40px;
+  max-width: 400px;
 }
 
 .slider__button {
-  padding: 17px 53px 15px;
+  padding: 17px 0 15px;
   border-radius: 3px;
+  max-width: 240px;
 }
 
 .slider__toggles {
@@ -242,7 +247,7 @@ img {
 }
 
 .products {
-  padding: 80px 0 92px;
+  padding: 80px 0 81px;
   border-bottom: 2px solid var(--main-bg-color);
 }
 
@@ -264,16 +269,18 @@ img {
   font-size: 24px;
   line-height: 30px;
   margin: 20px 0 16px;
+  max-width: 300px;
 }
 
 .products__text {
   max-width: 260px;
-  margin-bottom: 46px;
+  margin-bottom: 30px;
 }
 
 .products__button {
-  padding: 17px 40px 15px;
+  padding: 17px 0 15px;
   border-radius: 3px;
+  max-width: 160px;
 }
 
 .produts__button--green {
@@ -489,7 +496,7 @@ img {
   color: var(--special-text-color);
   line-height: 18px;
   max-width: 210px;
-  margin-bottom: 55px;
+  margin-bottom: 42px;
 }
 
 .contacts__button {
