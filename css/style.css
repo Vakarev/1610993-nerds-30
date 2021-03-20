@@ -99,6 +99,7 @@ img {
   margin: 0;
   padding: 0;
   margin-right: 48px;
+  flex-wrap: wrap;
 }
 
 .main-nav__item--active {
@@ -293,6 +294,7 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .products__item + .products__item {
@@ -450,6 +452,7 @@ img {
   margin: 0;
   padding: 0 32px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .clients__item:nth-child(1) {
@@ -504,6 +507,7 @@ img {
 
 .contacts {
   height: 416px;
+  background-color: var(--main-bg-color);
   background-image: url("../img/map.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -537,15 +541,15 @@ img {
   margin-bottom: 40px;
 }
 
+.contacts__text a {
+  color: var(--special-text-color);
+}
+
 .contacts__button {
   padding: 17px 44px 14px;
   border-radius: 3px;
   border: none;
   cursor: pointer;
-}
-
-.contacts__button:focus {
-  outline: 0;
 }
 
 .socials {
@@ -565,6 +569,7 @@ img {
   margin: 0;
   padding: 0;
   margin-top: 34px;
+  flex-wrap: wrap;
 }
 
 .socials__link {
@@ -724,10 +729,6 @@ img {
   cursor: pointer;
 }
 
-.modal__button:focus {
-  outline: 0;
-}
-
 .modal-close {
   position: absolute;
   width: 21px;
@@ -761,10 +762,6 @@ img {
 .modal-close:active::after {
   opacity: 0.1;
 } 
-
-.modal-close:focus {
-  outline: 0;
-}
 
 .modal-close::before {
   transform: rotate(45deg);
@@ -877,6 +874,15 @@ img {
   background: #f1f1f1;
   font-family: inherit;
   font-size: inherit;
+}
+
+.input-number::-webkit-outer-spin-button,
+.input-number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.input-number {
+  -moz-appearance: textfield;
 }
 
 .filter-item__wrapper {
@@ -1043,7 +1049,6 @@ img {
 }
 
 .form__button:hover {
-  outline: 0;
   background-color: var(--dark-grey-color);
 }
 
@@ -1214,6 +1219,15 @@ img {
   margin-bottom: 0;
 }
 
+.product__title:hover {
+  color: var(--pink-color);
+}
+
+.product__title:active {
+  color: var(--second-text-color);
+  opacity: 0.3;
+}
+
 .product__description {
   color: var(--special-text-color);
   line-height: 18px;
@@ -1250,6 +1264,7 @@ img {
 
 .pagination__link {
   display: inline-block;
+  vertical-align: middle;
   color: var(--second-text-color);
   line-height: 18px;
   padding: 17px 20px 15px;
